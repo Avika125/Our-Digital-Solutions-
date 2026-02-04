@@ -61,7 +61,7 @@ const workSlides = {
   ],
 };
 
-const WorkSlider = () => {
+const SolutionsSlider = () => {
   return (
     <Swiper
       spaceBetween={10}
@@ -124,4 +124,4 @@ const WorkSlider = () => {
   );
 };
 
-export default WorkSlider;
+export default SolutionsSlider;

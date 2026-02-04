@@ -31,7 +31,7 @@ const testimonialData = [
   },
 ];
 
-const TestimonialSlider = () => {
+const FeedbackSlider = () => {
   return (
     <Swiper
       navigation
@@ -89,4 +89,4 @@ const TestimonialSlider = () => {
   );
 };
 
-export default TestimonialSlider;
+export default FeedbackSlider;

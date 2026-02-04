@@ -1,4 +1,4 @@
-# Code of Conduct - Modern Portfolio
+# Code of Conduct - Our - Digital Solutions
 
 ## Our Pledge
 

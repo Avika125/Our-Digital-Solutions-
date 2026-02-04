@@ -4,9 +4,9 @@ import { usePathname } from "next/navigation";
 // icons
 import {
   HiHome,
-  HiUser,
-  HiViewColumns,
+  HiUsers,
   HiRectangleGroup,
+  HiViewColumns,
   HiChatBubbleBottomCenterText,
   HiEnvelope,
 } from "react-icons/hi2";
@@ -14,17 +14,17 @@ import {
 // nav data
 export const navData = [
   { name: "home", path: "/", Icon: HiHome },
-  { name: "about", path: "/about", Icon: HiUser },
-  { name: "services", path: "/services", Icon: HiRectangleGroup },
-  { name: "work", path: "/work", Icon: HiViewColumns },
+  { name: "who we are", path: "/who-we-are", Icon: HiUsers },
+  { name: "what we do", path: "/what-we-do", Icon: HiRectangleGroup },
+  { name: "stuff that worked", path: "/stuff-that-worked", Icon: HiViewColumns },
   {
-    name: "testimonials",
-    path: "/testimonials",
+    name: "how we work",
+    path: "/how-we-work",
     Icon: HiChatBubbleBottomCenterText,
   },
   {
-    name: "contact",
-    path: "/contact",
+    name: "let's talk",
+    path: "/let-s-talk",
     Icon: HiEnvelope,
   },
 ];
@@ -34,12 +34,11 @@ const Nav = () => {
 
   return (
     <nav className="flex flex-col items-center xl:justify-center gap-y-4 fixed h-max bottom-0 mt-auto xl:right-[2%] z-50 top-0 w-full xl:w-16 xl:max-w-md xl:h-screen">
-      <div className="flex w-full xl:flex-col items-center justify-between xl:justify-center gap-y-10 px-4 md:px-40 xl:px-0 h-[80px] xl:h-max py-8 bg-white/10 backdrop-blur-sm text-3xl xl:text-xl xl:rounded-full">
+      <div className="flex w-full xl:flex-col items-center justify-between xl:justify-center gap-y-10 px-4 md:px-40 xl:px-0 h-[80px] xl:h-max py-8 bg-white/5 backdrop-blur-md text-3xl xl:text-xl xl:rounded-full border border-white/10 ring-1 ring-white/5 shadow-2xl">
         {navData.map((link, i) => (
           <Link
-            className={`${
-              link.path === pathname && "text-accent"
-            } relative flex items-center group hover:text-accent transition-all duration-300`}
+            className={`${link.path === pathname && "text-accent"
+              } relative flex items-center group hover:text-accent transition-all duration-300`}
             href={link.path}
             key={i}
           >

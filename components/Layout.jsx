@@ -1,9 +1,10 @@
-import { Sora } from "next/font/google";
+import { Sora, Playfair_Display } from "next/font/google";
 import Head from "next/head";
 
 import Header from "../components/Header";
 import Nav from "../components/Nav";
 import TopLeftImg from "../components/TopLeftImg";
+import ScrollingBrain from "../components/ScrollingBrain";
 
 // setup font
 const sora = Sora({
@@ -12,29 +13,35 @@ const sora = Sora({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800"],
 });
 
+const playfair = Playfair_Display({
+  subsets: ["latin"],
+  variable: "--font-playfair",
+});
+
 const Layout = ({ children }) => {
   return (
     <main
-      className={`page bg-site text-white bg-cover bg-no-repeat ${sora.variable} font-sora relative`}
+      className={`page bg-site text-white bg-cover bg-no-repeat ${sora.variable} ${playfair.variable} font-sora relative min-h-screen overflow-y-auto`}
     >
       {/* metadata */}
       <Head>
-        <title>Ethan Smith | Portfolio</title>
+        <title>Our | Digital Solutions</title>
         <meta
           name="description"
-          content="Ethan Smith is a Full-stack web developer with 10+ years of experience."
+          content="Our is a digital agency that gives thoughts a chance at reality."
         />
         <meta
           name="keywords"
-          content="react, next, nextjs, html, css, javascript, js, modern-ui, modern-ux, portfolio, framer-motion, 3d-website, particle-effect"
+          content="react, next, nextjs, html, css, javascript, js, modern-ui, modern-ux, agency, framer-motion, 3d-website, particle-effect"
         />
-        <meta name="author" content="Sanidhya Kumar Verma" />
+        <meta name="author" content="Our" />
         <meta name="theme-color" content="#f13024" />
       </Head>
 
       <TopLeftImg />
       <Nav />
       <Header />
+      <ScrollingBrain />
 
       {/* main content */}
       {children}

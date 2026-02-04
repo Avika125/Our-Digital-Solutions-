@@ -5,22 +5,27 @@ import Socials from "../components/Socials";
 
 const Header = () => {
   return (
-    <header className="absolute z-30 w-full items-center px-16 xl-px-0 xl:h-[90px]">
+    <header className="fixed z-40 w-full items-center px-16 xl:px-0 xl:h-[90px] bg-primary/10">
       <div className="container mx-auto">
-        <div className="flex flex-col lg:flex-row justify-between items-center gap-y-6 py-8">
+        <div className="flex flex-col lg:flex-row justify-between items-center gap-y-4 py-4 lg:py-8">
           {/* logo */}
           <Link href="/">
-            <Image
-              src="/logo.svg"
-              alt="logo"
-              width={220}
-              height={48}
-              priority
-            />
+            <div className="relative group cursor-pointer">
+              {/* Pulse effect */}
+              <div className="absolute -inset-2 bg-accent/20 rounded-full blur-xl opacity-0 group-hover:opacity-100 transition-all duration-1000 animate-pulse"></div>
+
+              <div className="w-[60px] h-[60px] bg-white rounded-full flex items-center justify-center transition-all duration-500 shadow-[0_0_20px_rgba(255,255,255,0.1)] group-hover:scale-105 border border-white/20 relative z-10">
+                <span className="font-playfair text-accent text-2xl font-bold italic tracking-[-0.05em]">
+                  our
+                </span>
+              </div>
+            </div>
           </Link>
 
           {/* socials */}
-          <Socials />
+          <div className="hidden lg:flex">
+            <Socials />
+          </div>
         </div>
       </div>
     </header>

@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 
 import ParticlesContainer from "../components/ParticlesContainer";
-import ProjectsBtn from "../components/ProjectsBtn";
+import CaseStudiesBtn from "../components/CaseStudiesBtn";
 import Avatar from "../components/Avatar";
 
 import { fadeIn } from "../variants";
@@ -18,10 +18,10 @@ const Home = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="h1"
+            className="h1 font-playfair"
           >
-            Transforming Ideas <br /> Into{" "}
-            <span className="text-accent">Digital Reality</span>
+            We give thoughts a <br /> chance at{" "}
+            <span className="text-accent">reality</span>
           </motion.h1>
 
           {/* subtitle */}
@@ -32,15 +32,12 @@ const Home = () => {
             exit="hidden"
             className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
           >
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate,
-            exercitationem harum, quia nulla temporibus deleniti libero veniam
-            vero beatae numquam ducimus illum ab similique ipsam tempore fugit
-            quod laudantium debitis.
+            through digital craftsmanship for forward-looking brands
           </motion.p>
 
           {/* btn */}
           <div className="flex justify-center xl:hidden relative">
-            <ProjectsBtn />
+            <CaseStudiesBtn />
           </div>
           <motion.div
             variants={fadeIn("down", 0.4)}
@@ -49,7 +46,7 @@ const Home = () => {
             exit="hidden"
             className="hidden xl:flex"
           >
-            <ProjectsBtn />
+            <CaseStudiesBtn />
           </motion.div>
         </div>
       </div>
