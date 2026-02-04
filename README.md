@@ -100,30 +100,6 @@ Useful resources and dependencies that are used in Modern Portfolio.
 - [tailwindcss](https://www.npmjs.com/package/tailwindcss): ^3.3.2
 
 
-## :rocket: Follow Me
-
-- [GitHub](https://github.com/sanidhyy)
-- [Twitter](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2Fsanidhyy%2Fmodern-portfolio)
-- [YouTube](https://www.youtube.com/channel/UCNAz_hUVBG2ZUN8TVm0bmYw)
-
-## :books: Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## :page_with_curl: Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
-## :star: Give A Star
-
-You can also give this repository a star to show more people and they can use this repository.
 
 
 <br />
