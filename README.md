@@ -1,17 +1,17 @@
 <a name="readme-top"></a>
 
-# Modern Portfolio using Next.js and Framer Motion
+# Our - Digital Solutions using Next.js and Framer Motion
 
-![Modern Portfolio using Next.js and Framer Motion](/.github/images/img_main.png "Modern Portfolio using Next.js and Framer Motion")
+![Our - Digital Solutions using Next.js and Framer Motion](/.github/images/img_main.png "Our - Digital Solutions using Next.js and Framer Motion")
 
-[![Ask Me Anything!](https://flat.badgen.net/static/Ask%20me/anything?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy "Ask Me Anything!")
-[![GitHub license](https://flat.badgen.net/github/license/sanidhyy/modern-portfolio?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/modern-portfolio/blob/main/LICENSE "GitHub license")
-[![Maintenance](https://flat.badgen.net/static/Maintained/yes?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/modern-portfolio/commits/main "Maintenance")
-[![GitHub branches](https://flat.badgen.net/github/branches/sanidhyy/modern-portfolio?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/modern-portfolio/branches "GitHub branches")
-[![Github commits](https://flat.badgen.net/github/commits/sanidhyy/modern-portfolio?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/modern-portfolio/commits "Github commits")
-[![Netlify Status](https://api.netlify.com/api/v1/badges/721491f5-0b0d-4120-96bd-6bd0480ef1e5/deploy-status)](https://awersome-portfolio.netlify.app/ "Netlify Status")
-[![GitHub issues](https://flat.badgen.net/github/issues/sanidhyy/modern-portfolio?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/modern-portfolio/issues "GitHub issues")
-[![GitHub pull requests](https://flat.badgen.net/github/prs/sanidhyy/modern-portfolio?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/modern-portfolio/pulls "GitHub pull requests")
+[![Ask Me Anything!](https://flat.badgen.net/static/Ask%20me/anything?icon=github&color=black&scale=1.01)](https://github.com/Our "Ask Me Anything!")
+[![GitHub license](https://flat.badgen.net/github/license/Our/Our-site?icon=github&color=black&scale=1.01)](https://github.com/Our/Our-site/blob/main/LICENSE "GitHub license")
+[![Maintenance](https://flat.badgen.net/static/Maintained/yes?icon=github&color=black&scale=1.01)](https://github.com/Our/Our-site/commits/main "Maintenance")
+[![GitHub branches](https://flat.badgen.net/github/branches/Our/Our-site?icon=github&color=black&scale=1.01)](https://github.com/Our/Our-site/branches "GitHub branches")
+[![Github commits](https://flat.badgen.net/github/commits/Our/Our-site?icon=github&color=black&scale=1.01)](https://github.com/Our/Our-site/commits "Github commits")
+[![Netlify Status](https://api.netlify.com/api/v1/badges/721491f5-0b0d-4120-96bd-6bd0480ef1e5/deploy-status)](https://Our-portfolio.netlify.app/ "Netlify Status")
+[![GitHub issues](https://flat.badgen.net/github/issues/Our/Our-site?icon=github&color=black&scale=1.01)](https://github.com/Our/Our-site/issues "GitHub issues")
+[![GitHub pull requests](https://flat.badgen.net/github/prs/Our/Our-site?icon=github&color=black&scale=1.01)](https://github.com/Our/Our-site/pulls "GitHub pull requests")
 
 <!-- Table of Contents -->
 <details>
@@ -44,14 +44,14 @@
 Here is the folder structure of this app.
 
 ```bash
-modern-portfolio/
+Our-site/
   |- components/
   |- pages/
-    |-- about/
-    |-- contact/
-    |-- services/
-    |-- testimonials/
-    |-- work/
+    |-- how-we-work/
+    |-- who-we-are/
+    |-- let-s-talk/
+    |-- what-we-do/
+    |-- stuff-that-worked/
     |-- _app.jsx
     |-- index.jsx
   |- public/
@@ -158,11 +158,11 @@ You can also give this repository a star to show more people and they can use th
 
 ## :star2: Star History
 
-<a href="https://star-history.com/#sanidhyy/modern-portfolio&Timeline">
+<a href="https://star-history.com/#Our/Our-site&Timeline">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=sanidhyy/modern-portfolio&type=Timeline&theme=dark" />
-  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=sanidhyy/modern-portfolio&type=Timeline" />
-  <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=sanidhyy/modern-portfolio&type=Timeline" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=Our/Our-site&type=Timeline&theme=dark" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=Our/Our-site&type=Timeline" />
+  <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=Our/Our-site&type=Timeline" />
 </picture>
 </a>
 
