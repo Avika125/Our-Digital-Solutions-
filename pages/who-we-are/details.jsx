@@ -14,7 +14,7 @@ const Details = () => {
     ];
 
     return (
-        <div className="h-full bg-primary/30 py-32 xl:py-48 overflow-y-auto scrollbar-thin scrollbar-track-white/10 scrollbar-thumb-accent/80 font-grandHotel">
+        <div className="h-full bg-primary/30 pt-48 pb-32 xl:py-48 overflow-y-auto scrollbar-thin scrollbar-track-white/10 scrollbar-thumb-accent/80 font-grandHotel">
             <Circles />
             <Bulb />
 

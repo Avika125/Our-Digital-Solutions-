@@ -9,7 +9,7 @@ export const serviceData = [];
 
 const Services = () => {
   return (
-    <div className="min-h-screen bg-primary/30 py-36">
+    <div className="min-h-screen bg-primary/30 pt-48 pb-36">
       <Circles />
       <div className="container mx-auto px-4">
         {/* Header Section */}

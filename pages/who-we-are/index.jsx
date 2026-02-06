@@ -22,7 +22,7 @@ import { fadeIn } from "../../variants";
 
 const About = () => {
   return (
-    <div className="min-h-screen bg-primary/30 py-32 text-center xl:text-left">
+    <div className="min-h-screen bg-primary/30 pt-48 pb-32 text-center xl:text-left">
       <Circles />
 
       {/* avatar img */}
@@ -46,7 +46,7 @@ const About = () => {
             exit="hidden"
             className="h2 font-marker leading-tight mb-8"
           >
-            We're a digital solutions business made up by tech misfits, passionate creatives and curious humans.
+            We're a digital solutions business made up by tech <span className="text-accent text-playfair">misfits, passionate creatives and curious humans.</span>
           </motion.h2>
         </div>
 
