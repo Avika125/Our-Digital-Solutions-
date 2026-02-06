@@ -36,7 +36,9 @@ module.exports = {
         "spin-slow": "spin 6s linear infinite",
       },
       fontFamily: {
-        poppins: [`var(--font-poppins)`, "sans-serif"],
+        luckiest: [`var(--font-luckiest)`, "cursive"],
+        marker: [`var(--font-marker)`, "cursive"],
+        grandHotel: [`var(--font-grand-hotel)`, "cursive"],
         sora: [`var(--font-sora)`, "sans-serif"],
       },
     },

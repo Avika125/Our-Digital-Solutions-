@@ -1,4 +1,4 @@
-import { Sora, Playfair_Display } from "next/font/google";
+import { Sora, Luckiest_Guy, Permanent_Marker, Grand_Hotel } from "next/font/google";
 import Head from "next/head";
 
 import Header from "../components/Header";
@@ -6,26 +6,38 @@ import Nav from "../components/Nav";
 import TopLeftImg from "../components/TopLeftImg";
 import ScrollingBrain from "../components/ScrollingBrain";
 
-// setup font
+// setup fonts
 const sora = Sora({
   subsets: ["latin"],
   variable: "--font-sora",
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800"],
 });
 
-const playfair = Playfair_Display({
+const luckiest = Luckiest_Guy({
   subsets: ["latin"],
-  variable: "--font-playfair",
+  weight: "400",
+  variable: "--font-luckiest",
+});
+
+const marker = Permanent_Marker({
+  subsets: ["latin"],
+  weight: "400",
+  variable: "--font-marker",
+});
+
+const grandHotel = Grand_Hotel({
+  subsets: ["latin"],
+  weight: "400",
+  variable: "--font-grand-hotel",
 });
 
 const Layout = ({ children }) => {
   return (
     <main
-      className={`page bg-site text-white bg-cover bg-no-repeat ${sora.variable} ${playfair.variable} font-sora relative min-h-screen overflow-y-auto`}
+      className={`page bg-site text-white bg-cover bg-no-repeat ${sora.variable} ${luckiest.variable} ${marker.variable} ${grandHotel.variable} font-sora relative min-h-screen overflow-y-auto`}
     >
       {/* metadata */}
       <Head>
-        <title>Our | Digital Solutions</title>
+        <title>Nerdx | Digital Solutions</title>
         <meta
           name="description"
           content="Our is a digital agency that gives thoughts a chance at reality."

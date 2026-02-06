@@ -14,7 +14,7 @@ const HowWeWorkDetails = () => {
     ];
 
     return (
-        <div className="h-full bg-primary/30 py-32 xl:py-48 overflow-y-auto scrollbar-thin scrollbar-track-white/10 scrollbar-thumb-accent/80 font-sora">
+        <div className="h-full bg-primary/30 py-32 xl:py-48 overflow-y-auto scrollbar-thin scrollbar-track-white/10 scrollbar-thumb-accent/80 font-grandHotel">
             <Circles />
             <Bulb />
 
@@ -28,7 +28,7 @@ const HowWeWorkDetails = () => {
                         animate="show"
                         exit="hidden"
                     >
-                        <h1 className="h1 font-playfair tracking-tight">
+                        <h1 className="h1 font-marker tracking-tight">
                             We keep you close, and your users <span className="text-accent italic">closer.</span>
                         </h1>
                         <p className="text-xl text-white/80 leading-relaxed max-w-[700px] mx-auto">
@@ -46,7 +46,7 @@ const HowWeWorkDetails = () => {
                             animate="show"
                             exit="hidden"
                         >
-                            <h2 className="text-4xl font-playfair mb-6">
+                            <h2 className="text-4xl font-marker mb-6">
                                 We always set out to <br />
                                 <span className="text-accent">get it right the first time</span>
                             </h2>
@@ -74,7 +74,7 @@ const HowWeWorkDetails = () => {
                         variants={fadeIn("up", 0.2)}
                         initial="hidden"
                         whileInView="show"
-                        className="text-3xl font-playfair mb-16 text-center"
+                        className="text-3xl font-marker mb-16 text-center"
                     >
                         Put simply (again), we are <span className="text-accent underline underline-offset-8">nerds</span>
                     </motion.h3>
@@ -87,7 +87,7 @@ const HowWeWorkDetails = () => {
                                 whileInView="show"
                                 className="flex flex-col items-center lg:items-start group"
                             >
-                                <span className="text-7xl font-playfair text-white/20 group-hover:text-accent transition-all duration-500 mb-4 inline-block">{item.letter}</span>
+                                <span className="text-7xl font-marker text-white/20 group-hover:text-accent transition-all duration-500 mb-4 inline-block">{item.letter}</span>
                                 <h4 className="text-xl font-bold tracking-widest uppercase mb-4">{item.word}</h4>
                                 <p className="text-white/50 text-sm leading-relaxed">{item.desc}</p>
                             </motion.div>

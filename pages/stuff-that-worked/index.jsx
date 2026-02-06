@@ -16,7 +16,7 @@ const Work = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="h2 font-playfair mb-4"
+            className="h2 font-marker mb-4"
           >
             And here's some stuff that's <span className="text-accent text-playfair">worked.</span>
           </motion.h2>
@@ -39,8 +39,8 @@ const Work = () => {
                 <span className="absolute">Project {item}</span>
               </div>
               <div className="p-6">
-                <h3 className="font-playfair text-xl mb-2">Project Title {item}</h3>
-                <p className="text-white/60 text-sm">Brief description of the digital craftsmanship applied to this specific project.</p>
+                <h3 className="font-marker text-xl mb-2">Project Title {item}</h3>
+                <p className="text-white/60 text-sm font-grandHotel">Brief description of the digital craftsmanship applied to this specific project.</p>
               </div>
             </div>
           ))}

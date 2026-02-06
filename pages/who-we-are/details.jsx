@@ -14,7 +14,7 @@ const Details = () => {
     ];
 
     return (
-        <div className="h-full bg-primary/30 py-32 xl:py-48 overflow-y-auto scrollbar-thin scrollbar-track-white/10 scrollbar-thumb-accent/80 font-sora">
+        <div className="h-full bg-primary/30 py-32 xl:py-48 overflow-y-auto scrollbar-thin scrollbar-track-white/10 scrollbar-thumb-accent/80 font-grandHotel">
             <Circles />
             <Bulb />
 
@@ -28,8 +28,8 @@ const Details = () => {
                         animate="show"
                         exit="hidden"
                     >
-                        <p className="text-accent text-xl font-playfair italic mb-4">We are problem solvers…</p>
-                        <h1 className="h1 font-playfair tracking-tight">
+                        <p className="text-accent text-xl font-marker italic mb-4">We are problem solvers…</p>
+                        <h1 className="h1 font-marker tracking-tight">
                             Who live for that feeling you get when a problem is <span className="text-accent italic">solved.</span>
                         </h1>
                     </motion.div>
@@ -44,7 +44,7 @@ const Details = () => {
                             animate="show"
                             exit="hidden"
                         >
-                            <h2 className="text-4xl font-playfair mb-6">Our partners choose to work with us because <span className="text-accent">we aren’t…</span></h2>
+                            <h2 className="text-4xl font-marker mb-6">Our partners choose to work with us because <span className="text-accent">we aren’t…</span></h2>
                         </motion.div>
                         <motion.ul
                             variants={fadeIn("left", 0.4)}
@@ -75,7 +75,7 @@ const Details = () => {
                         className="flex flex-col lg:flex-row gap-8 lg:gap-20 border-t border-white/10 pt-16"
                     >
                         <div className="lg:w-1/3">
-                            <h3 className="text-4xl font-playfair text-accent">Where we came from</h3>
+                            <h3 className="text-4xl font-marker text-accent">Where we came from</h3>
                         </div>
                         <div className="lg:w-2/3 space-y-6">
                             <p className="text-xl text-white/80 leading-relaxed">
@@ -96,10 +96,10 @@ const Details = () => {
                         className="flex flex-col lg:flex-row gap-8 lg:gap-20 border-t border-white/10 pt-16"
                     >
                         <div className="lg:w-1/3">
-                            <h3 className="text-4xl font-playfair text-accent">What’s happened since</h3>
+                            <h3 className="text-4xl font-marker text-accent">What’s happened since</h3>
                         </div>
                         <div className="lg:w-2/3 space-y-6">
-                            <p className="text-xl text-white/80 leading-relaxed font-playfair italic">
+                            <p className="text-xl text-white/80 leading-relaxed font-grandHotel italic">
                                 “Since we set out to challenge the offering available, we have been dedicated to working with numerous startups and established businesses.”
                             </p>
                             <p className="text-xl text-white/80 leading-relaxed border-l-2 border-accent/30 pl-8">
@@ -117,7 +117,7 @@ const Details = () => {
                         className="flex flex-col lg:flex-row gap-8 lg:gap-20 border-t border-white/10 pt-16"
                     >
                         <div className="lg:w-1/3">
-                            <h3 className="text-4xl font-playfair text-accent">Where we are now</h3>
+                            <h3 className="text-4xl font-grandHotel text-accent">Where we are now</h3>
                         </div>
                         <div className="lg:w-2/3 space-y-6">
                             <p className="text-xl text-white/80 leading-relaxed">
@@ -139,12 +139,12 @@ const Details = () => {
                     viewport={{ once: true }}
                     className="max-w-5xl mx-auto w-full text-center py-20 border-t border-white/10"
                 >
-                    <h2 className="h2 font-playfair mb-10">
+                    <h2 className="h2 font-grandHotel mb-10">
                         Let's make some <span className="text-accent">magic.</span> Together.
                     </h2>
                     <Link
                         href="/let-s-talk"
-                        className="inline-flex items-center gap-4 text-2xl font-playfair group hover:text-accent transition-all duration-300"
+                        className="inline-flex items-center gap-4 text-2xl font-grandHotel group hover:text-accent transition-all duration-300"
                     >
                         Get a quote
                         <HiArrowLongRight className="group-hover:translate-x-2 transition-all duration-300" />

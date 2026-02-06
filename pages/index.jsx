@@ -12,13 +12,22 @@ const Home = () => {
       {/* text */}
       <div className="w-full h-full bg-gradient-to-r from-primary/10 via-black/30 to-black/10">
         <div className="text-center flex flex-col justify-center xl:pt-40 xl:text-left h-full container mx-auto">
+          {/* marker accent */}
+          <motion.p
+            variants={fadeIn("down", 0.2)}
+            initial="hidden"
+            animate="show"
+            exit="hidden"
+            className="font-marker text-accent text-sm tracking-[0.3em] uppercase mb-4"
+          >
+          </motion.p>
           {/* title */}
           <motion.h1
             variants={fadeIn("down", 0.2)}
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="h1 font-playfair"
+            className="h1 font-marker"
           >
             We give thoughts a <br /> chance at{" "}
             <span className="text-accent">reality</span>
@@ -30,7 +39,7 @@ const Home = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
+            className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16 text-3xl font-grandHotel"
           >
             through digital craftsmanship for forward-looking brands
           </motion.p>

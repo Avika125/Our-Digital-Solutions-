@@ -44,7 +44,7 @@ const About = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="h2 font-playfair leading-tight mb-8"
+            className="h2 font-marker leading-tight mb-8"
           >
             We're a digital solutions business made up by tech misfits, passionate creatives and curious humans.
           </motion.h2>
@@ -56,18 +56,18 @@ const About = () => {
           initial="hidden"
           animate="show"
           exit="hidden"
-          className="flex-1 flex flex-col justify-center gap-y-6 text-white/80 text-lg xl:text-left"
+          className="flex-1 flex flex-col justify-center gap-y-6 text-white/80 text-lg xl:text-left font-grandHotel"
         >
-          <p>
+          <p className="text-2xl">
             We work with entrepreneurs and forward-looking companies to transform ideas into products that HELP, CHALLENGE, and INSPIRE.
           </p>
-          <p>
+          <p className="text-xl">
             From design through to code, we delight in finding simple solutions to complex challenges. And by collaborating with our clients to form rewarding relationships, we help their companies grow and evolve.
           </p>
-          <p>
+          <p className="text-xl">
             This process is further fuelled by our integrated approach to strategy, design and development, which allows us to help deliver ideas from concept to launch, and beyond.
           </p>
-          <p className="font-semibold text-white">
+          <p className="font-semibold text-white font-marker">
             Not in a rush? Here's a bit more about{" "}
             <Link href="/who-we-are/details" className="text-accent underline cursor-pointer">
               who we are.

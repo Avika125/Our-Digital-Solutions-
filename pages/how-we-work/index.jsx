@@ -13,7 +13,7 @@ const Testimonials = () => {
           initial="hidden"
           animate="show"
           exit="hidden"
-          className="h2 mb-12 font-playfair"
+          className="h2 mb-12 font-marker"
         >
           Put simply, we are nerds.
         </motion.h2>
@@ -28,27 +28,27 @@ const Testimonials = () => {
         >
           {/* N */}
           <div className="flex flex-col items-center group">
-            <h3 className="text-8xl font-playfair mb-2 transition-all duration-300 group-hover:text-accent">N</h3>
+            <h3 className="text-8xl font-marker mb-2 transition-all duration-300 group-hover:text-accent">N</h3>
             <p className="text-sm uppercase tracking-widest mb-4">Navigate</p>
-            <p className="text-white/60 text-sm">We start by exploring your business, objectives and what makes it all tick.</p>
+            <p className="text-white/60 text-sm font-grandHotel">We start by exploring your business, objectives and what makes it all tick.</p>
           </div>
           {/* E */}
           <div className="flex flex-col items-center group">
-            <h3 className="text-8xl font-playfair mb-2 transition-all duration-300 group-hover:text-accent">E</h3>
+            <h3 className="text-8xl font-marker mb-2 transition-all duration-300 group-hover:text-accent">E</h3>
             <p className="text-sm uppercase tracking-widest mb-4">Explode</p>
-            <p className="text-white/60 text-sm">We pull it apart in search of all opportunities. We love good ol' blue sky thinking.</p>
+            <p className="text-white/60 text-sm font-grandHotel">We pull it apart in search of all opportunities. We love good ol' blue sky thinking.</p>
           </div>
           {/* R */}
           <div className="flex flex-col items-center group">
-            <h3 className="text-8xl font-playfair mb-2 transition-all duration-300 group-hover:text-accent">R</h3>
+            <h3 className="text-8xl font-marker mb-2 transition-all duration-300 group-hover:text-accent">R</h3>
             <p className="text-sm uppercase tracking-widest mb-4">Refine</p>
-            <p className="text-white/60 text-sm">After some hustling and huddling, we refine our ideas into elegant solutions.</p>
+            <p className="text-white/60 text-sm font-grandHotel">After some hustling and huddling, we refine our ideas into elegant solutions.</p>
           </div>
           {/* D */}
           <div className="flex flex-col items-center group">
-            <h3 className="text-8xl font-playfair mb-2 transition-all duration-300 group-hover:text-accent">D</h3>
+            <h3 className="text-8xl font-marker mb-2 transition-all duration-300 group-hover:text-accent">D</h3>
             <p className="text-sm uppercase tracking-widest mb-4">Define</p>
-            <p className="text-white/60 text-sm">Lastly we craft user-centric products for you to take on the world. And win.</p>
+            <p className="text-white/60 text-sm font-grandHotel">Lastly we craft user-centric products for you to take on the world. And win.</p>
           </div>
         </motion.div>
 
