@@ -2,9 +2,6 @@ import { Sora, Luckiest_Guy, Permanent_Marker, Grand_Hotel } from "next/font/goo
 import Head from "next/head";
 
 import Header from "../components/Header";
-import Nav from "../components/Nav";
-import TopLeftImg from "../components/TopLeftImg";
-import ScrollingBrain from "../components/ScrollingBrain";
 
 // setup fonts
 const sora = Sora({
@@ -50,10 +47,8 @@ const Layout = ({ children }) => {
         <meta name="theme-color" content="#f13024" />
       </Head>
 
-      <TopLeftImg />
-      <Nav />
+      {/* <Nav /> */}
       <Header />
-      <ScrollingBrain />
 
       {/* main content */}
       {children}
